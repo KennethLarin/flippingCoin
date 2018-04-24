@@ -1,12 +1,14 @@
 $(document).ready(function() {
-  var coinValue = Math.random();
-  if (coinValue >= 0.5) {
-    var result = 'You got tails!';
-  } else {
-    result = 'You got head!';
-  }
+  var result;
   $("#flip").click(function(){
-       $('#result').append(result);
+    $('#result').empty();
+    var coinValue = Math.random();
+    if (coinValue >= 0.5) {
+      result = 'You got tails!';
+    } else {
+      result = 'You got head!';
+    }
+      $('#result').append(result);
   }
 );
 });
