@@ -1,0 +1,22 @@
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: "Do Hyeon", monospace;
+  background: lightblue;
+  text-align: center;
+  padding: 10rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+#flip {
+  cursor: grabbing;
+}
+
+h2 {
+  font-size: 2rem;
+}
